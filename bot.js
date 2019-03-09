@@ -1,6 +1,6 @@
 ﻿const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "$";
+const prefix = "%";
 
 
 
@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$bc |haytam Broadcast`,"http://twitch.tv/Death Shop")
+client.user.setGame(`👉 Invites Rewards 🔥`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
@@ -155,7 +155,7 @@ client.on("message", async message => {
             معلومات عن السيرفر : ${prefix}server
             برودكاست للأونلاين فقط : ${prefix}bco
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
-            رابط سيرفر الدعم الفني : dir server dyalk
+            رابط سيرفر انفت ريوارد : https://discord.gg/SeN9GHH
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
